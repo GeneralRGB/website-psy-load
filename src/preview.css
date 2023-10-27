@@ -1,0 +1,92 @@
+.main,
+.main>*:not(.background) {
+    position: relative;
+    z-index: 2;
+}
+
+.background {
+    position: absolute;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+
+/* .main {
+    background: url("assets/artist.jpg") center;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 25vw;
+} */
+
+.logo {
+    width: 25vw;
+    max-width: 250px;
+}
+
+.main-btn {
+    display: block;
+    margin-top: 20%;
+}
+
+.listen-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #805959;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .2);
+}
+
+.other-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.social-media:first-child {
+    margin-left: 25px;
+}
+
+.social-media>* {
+    height: 75px;
+    width: 75px;
+}
+
+.other-platforms {
+    margin-right: 50px;
+}
+
+.other-platforms>h3 {
+    margin: 0;
+    text-align: center;
+    /* margin-right: 125px;
+    display: block; */
+}
+
+.other-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 75px;
+}
+
+.other-buttons>button {
+    display: block;
+    height: 100%;
+    border-radius: 17px;
+    background: #4E4E4E;
+}
