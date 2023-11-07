@@ -1,0 +1,10 @@
+.about-section>h3 {
+    font-size: 42px;
+    font-weight: normal;
+    margin: 25px 0 0 45px;
+}
+
+.about-section>p {
+    padding: 12px 45px;
+    margin: 0;
+}

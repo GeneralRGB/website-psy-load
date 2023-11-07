@@ -1,0 +1,15 @@
+.songs-section {
+    margin-top: 50px;
+}
+
+.songs-section>h3 {
+    margin: 25px 0 25px 45px;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.song-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 0;
+}

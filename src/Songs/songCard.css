@@ -1,0 +1,17 @@
+.song-card {
+    margin: auto;
+    width: 175px;
+}
+
+.song-img {
+    display: block;
+    border-radius: 15px;
+    margin: 0 auto 5px;
+    width: 175px;
+}
+
+.song-text {
+    display: block;
+    margin: auto;
+    text-align: center;
+}

@@ -1,13 +1,17 @@
-import Header from "./Header";
-import Preview from "./Preview";
+import Header from "./Header/Header";
+import Preview from "./Preview/Preview";
 import "./App.css";
+import Songs from "./Songs/Songs";
+import About from "./About/About";
 
 function App() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main">
         <Preview />
+        <Songs />
+        <About />
       </main>
     </>
   );
