@@ -1,18 +1,25 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Header from "./Header/Header";
-import Preview from "./Preview/Preview";
 import "./App.css";
-import Songs from "./Songs/Songs";
-import About from "./About/About";
+import { MainPage } from "./MainPage";
+import { Song } from "./SongPage/Song";
 
 function App() {
   return (
     <>
-      <Header />
-      <main id="main">
-        <Preview />
-        <Songs />
-        <About />
-      </main>
+      <BrowserRouter>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="song/:id" element={<Song />} />
+            <Route path="*" element={<MainPage />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
     </>
   );
 }

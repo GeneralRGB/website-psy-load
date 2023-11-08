@@ -8,10 +8,31 @@
     border-radius: 15px;
     margin: 0 auto 5px;
     width: 175px;
+
 }
 
 .song-text {
     display: block;
     margin: auto;
     text-align: center;
+}
+
+.song-link>* {
+    transition: transform 0.25s ease-in-out;
+}
+
+.song-link:hover>span {
+    transform: translateY(10px);
+}
+
+.song-link:hover>* {
+    transform: scale(1.1);
+}
+
+.song-link:active>span {
+    transform: translateY(-1px);
+}
+
+.song-link:active>* {
+    transform: scale(0.9);
 }

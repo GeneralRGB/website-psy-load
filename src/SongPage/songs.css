@@ -1,0 +1,17 @@
+.song-page {
+    padding-top: 75px;
+}
+
+.song-page-img {
+    display: block;
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto 25px;
+}
+
+.song-page-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 34px;
+    margin-bottom: 25px;
+}

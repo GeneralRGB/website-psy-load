@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./songCard.css";
 
 interface Props {
@@ -5,17 +6,19 @@ interface Props {
     name: string;
     year: string;
     imgUrl: string;
+    id: string;
   };
 }
 
 export default function SongCard({ props }: Props) {
-  console.log(props);
   return (
     <div className="song-card">
-      <img className="song-img" src={props.imgUrl} alt={props.name} />
-      <span className="song-text">
-        {props.name} · {props.year}
-      </span>
+      <Link to={"song/" + props.id} className="song-link">
+        <img className="song-img" src={props.imgUrl} alt={props.name} />
+        <span className="song-text">
+          {props.name} · {props.year}
+        </span>
+      </Link>
     </div>
   );
 }

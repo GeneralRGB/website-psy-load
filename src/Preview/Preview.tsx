@@ -12,7 +12,7 @@ import YandexSvg from "./YandexSvg";
 
 export default function Preview() {
   return (
-    <div className="main">
+    <div className="main" id="main">
       <img src={logo} alt="psy logo" className="logo" />
       <div className="preview-container"></div>
       <img src={artist} className="background"></img>
