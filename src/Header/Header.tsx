@@ -17,7 +17,8 @@ export default function Header() {
     <header>
       <div className="header-container">
         <ul className="header__nav">
-          {location.pathname == "/" ? (
+          {location.pathname == "/" ||
+          location.pathname == "/website-psy-load/" ? (
             <>
               <li>
                 <a href="#main" className="header-link">

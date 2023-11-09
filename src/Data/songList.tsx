@@ -3,9 +3,9 @@ export const songList = [
     name: "Reset",
     year: "2022",
     imgUrl:
-      "https://avatars.yandex.net/get-music-content/5502420/a61d858b.a.24499797-1/200x200",
+      "https://avatars.yandex.net/get-music-content/5708920/4e08c098.a.21114002-1/200x200",
     HDimgUrl:
-      "https://avatars.yandex.net/get-music-content/5502420/a61d858b.a.24499797-1/400x400",
+      "https://avatars.yandex.net/get-music-content/5708920/4e08c098.a.21114002-1/400x400",
     id: "0",
   },
   {
