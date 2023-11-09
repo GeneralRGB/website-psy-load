@@ -48,7 +48,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.534) !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: border-color 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
