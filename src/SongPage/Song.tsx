@@ -25,11 +25,21 @@ export const Song = () => {
       <h3 className="song-page-title">
         {song.name} · {song.year}
       </h3>
-      <ListenNow />
+      <ListenNow
+        props={{
+          url: "https://open.spotify.com/artist/5dIbY2QCBZfLFWFarAewhs",
+        }}
+      />
       <div className="other-buttons song-page__additional-buttons">
-        <AppleMusic />
-        <SoundCloud />
-        <YandexMusic />
+        <AppleMusic
+          props={{
+            url: "https://music.apple.com/us/artist/psy-load/1555843310",
+          }}
+        />
+        <SoundCloud props={{ url: "https://soundcloud.com/psy-load" }} />
+        <YandexMusic
+          props={{ url: "https://music.yandex.ru/artist/12083962" }}
+        />
       </div>
       <div className="song-page-lower">
         <div className="lyrics-section">

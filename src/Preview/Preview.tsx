@@ -22,29 +22,57 @@ export default function Preview() {
       <div className="preview-container"></div>
       <img src={artist} className="background"></img>
       <div className="main-btn">
-        <ListenNow />
+        <ListenNow
+          props={{
+            url: "https://open.spotify.com/artist/5dIbY2QCBZfLFWFarAewhs",
+          }}
+        />
       </div>
       <div className="other-btn">
         <div className="social-media">
-          <div className="social-media-item">
+          <div
+            className="social-media-item"
+            onClick={() =>
+              window.open("https://www.instagram.com/psy.load/", "_blank")
+            }
+          >
             <InstagramSvg />
           </div>
-          <div className="social-media-item">
+          <div
+            className="social-media-item"
+            onClick={() =>
+              window.open("https://www.youtube.com/@psyload2539", "_blank")
+            }
+          >
             <YoutubeSvg />
           </div>
-          <div className="social-media-item">
+          <div
+            className="social-media-item"
+            onClick={() => window.open("https://www.facebook.com/", "_blank")}
+          >
             <FacebookSvg />
           </div>
-          <div className="social-media-item">
+          <div
+            className="social-media-item"
+            onClick={() =>
+              window.open("https://twitter.com/LoadPsy89298", "_blank")
+            }
+          >
             <TwitterSvg />
           </div>
         </div>
         <div className="other-platforms">
           <h3>Other Platforms</h3>
           <div className="other-buttons">
-            <AppleMusic />
-            <SoundCloud />
-            <YandexMusic />
+            <AppleMusic
+              props={{
+                url: "https://music.apple.com/us/artist/psy-load/1555843310",
+              }}
+            />
+            <SoundCloud props={{ url: "https://soundcloud.com/psy-load" }} />
+            <YandexMusic
+              props={{ url: "https://music.yandex.ru/artist/12083962" }}
+            />
           </div>
         </div>
       </div>

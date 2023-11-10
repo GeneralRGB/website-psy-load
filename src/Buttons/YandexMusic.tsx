@@ -1,8 +1,18 @@
 import YandexSvg from "./YandexSvg";
 
-export const YandexMusic = () => {
+interface Props {
+  props: {
+    url: string;
+  };
+}
+
+export const YandexMusic = ({ props }: Props) => {
   return (
-    <button>
+    <button
+      onClick={() => {
+        window.open(props.url, "_blank");
+      }}
+    >
       <YandexSvg />
       Yandex
       <br />

@@ -1,8 +1,18 @@
 import AppleMusicSvg from "./AppleMusicSvg";
 
-export const AppleMusic = () => {
+interface Props {
+  props: {
+    url: string;
+  };
+}
+
+export const AppleMusic = ({ props }: Props) => {
   return (
-    <button>
+    <button
+      onClick={() => {
+        window.open(props.url, "_blank");
+      }}
+    >
       <AppleMusicSvg />
       Apple
       <br />

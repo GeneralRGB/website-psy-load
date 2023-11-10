@@ -1,8 +1,18 @@
 import SoundCloudSvg from "./SoundCloudSvg";
 
-export const SoundCloud = () => {
+interface Props {
+  props: {
+    url: string;
+  };
+}
+
+export const SoundCloud = ({ props }: Props) => {
   return (
-    <button>
+    <button
+      onClick={() => {
+        window.open(props.url, "_blank");
+      }}
+    >
       <SoundCloudSvg />
       Sound
       <br />

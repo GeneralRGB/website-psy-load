@@ -1,8 +1,17 @@
 import SpotifySvg from "./SpotifySvg";
 
-export const ListenNow = () => {
+interface Props {
+  props: { url: string };
+}
+
+export const ListenNow = ({ props }: Props) => {
   return (
-    <button className="listen-now">
+    <button
+      className="listen-now"
+      onClick={() => {
+        window.open(props.url, "_blank");
+      }}
+    >
       Listen Now <SpotifySvg />
     </button>
   );
