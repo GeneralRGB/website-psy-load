@@ -10,6 +10,34 @@
 
 .song-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
     gap: 25px 0;
+}
+
+@media screen and (max-width: 1020px) {
+    .songs-section h3 {
+        text-align: center;
+        margin: 0 0 15px;
+    }
+
+    .songs-section {
+        margin: 20px 0 15px;
+    }
+
+    .song-list {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .song-list {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .song-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+    }
 }

@@ -9,7 +9,7 @@ export default function Songs() {
       <div className="song-list">
         {songList.map((song, i) => {
           song.id = String(i);
-          return <SongCard props={song} />;
+          return <SongCard key={song.id} props={song} />;
         })}
       </div>
     </div>

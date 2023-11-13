@@ -112,3 +112,91 @@
     width: 45px;
     height: 45px;
 }
+
+@media screen and (max-width: 1020px) {
+    .background {
+        object-fit: cover;
+        height: 592px;
+    }
+
+    .logo {
+        margin-top: 25px;
+    }
+
+    .main-btn {
+        margin-top: 5vw;
+    }
+
+    .other-btn {
+        flex-direction: column;
+    }
+
+    .other-btn .social-media {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .other-btn .social-media .social-media:first-child {
+        margin-left: 25px;
+    }
+
+    .other-btn .social-media svg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .listen-now {
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+
+    .listen-now svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .other-platforms {
+        margin: 0;
+    }
+
+    .other-platforms h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .other-btn .other-buttons {
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        padding: auto 10px;
+    }
+
+    .other-buttons button {
+        padding: 0px 10px;
+        height: 60px;
+    }
+
+    .other-buttons button svg {
+        widows: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .background {
+        width: 100%;
+        height: calc(100% + 20px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .background {
+        width: 100%;
+        height: calc(100% - 190px);
+    }
+
+    .header__language {
+        margin-left: 0;
+    }
+}

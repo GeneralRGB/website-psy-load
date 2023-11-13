@@ -36,3 +36,20 @@
 .song-link:active>* {
     transform: scale(0.9);
 }
+
+@media screen and (max-width: 721px) {
+    .song-img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .song-img {
+        width: 120px;
+        margin: auto;
+    }
+
+    .song-text {
+        font-size: 13px;
+    }
+}
