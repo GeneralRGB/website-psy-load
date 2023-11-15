@@ -8,3 +8,17 @@
     padding: 12px 45px;
     margin: 0;
 }
+
+
+@media screen and (max-width: 1020px) {
+    .about-section h3 {
+        text-align: center;
+        margin: 0 0 15px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .about-section p {
+        padding: 15px 25px;
+    }
+}

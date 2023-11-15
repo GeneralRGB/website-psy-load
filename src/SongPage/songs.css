@@ -65,3 +65,26 @@
     padding: 10px 50px;
     text-align: left;
 }
+
+.song-page__additional-buttons {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+@media screen and (max-width: 720px) {
+
+    .song-page-text,
+    .song-page-about {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .song-page__additional-buttons {
+        margin-top: 25px;
+        padding: 0 15px;
+        gap: 15px 25px;
+        justify-content: center;
+    }
+
+}
