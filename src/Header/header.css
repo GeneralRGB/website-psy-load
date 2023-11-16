@@ -34,3 +34,12 @@ ul {
 .header-link:hover {
     color: rgb(255, 63, 63);
 }
+
+.language {
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.language:hover {
+    color: red;
+}

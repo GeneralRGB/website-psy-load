@@ -1,10 +1,22 @@
 import SpotifySvg from "./SpotifySvg";
 
 interface Props {
-  props: { url: string };
+  props: { url: string; language?: string };
 }
 
 export const ListenNow = ({ props }: Props) => {
+  let listenText = "Listen now";
+  switch (props.language) {
+    case "en":
+      listenText = "Listen now";
+      break;
+    case "ru":
+      listenText = "Слушать";
+      break;
+    case "it":
+      listenText = "Ascolta ora";
+      break;
+  }
   return (
     <button
       className="listen-now"
@@ -12,7 +24,7 @@ export const ListenNow = ({ props }: Props) => {
         window.open(props.url, "_blank");
       }}
     >
-      Listen Now <SpotifySvg />
+      {listenText} <SpotifySvg />
     </button>
   );
 };

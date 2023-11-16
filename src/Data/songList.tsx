@@ -3,7 +3,8 @@ import letter from "./../assets/letter.gif";
 
 export const songList = [
   {
-    name: "Reset",
+    nameEng: "Reset",
+    nameRus: "Reset",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/5708920/4e08c098.a.21114002-1/200x200",
@@ -20,7 +21,8 @@ export const songList = [
       "RESET - preloading of consciousness. Rethinking the past, present and future.<br>Everyone is able to change themselves, it is from ourselves that we begin to change within our dimension.",
   },
   {
-    name: "Message",
+    nameEng: "Message",
+    nameRus: "Message",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/6021799/a6382038.a.22177801-1/200x200",
@@ -35,7 +37,8 @@ export const songList = [
     aboutEng: "",
   },
   {
-    name: "Alone",
+    nameEng: "Alone",
+    nameRus: "Alone",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/4384958/bb5c775f.a.16268592-1/200x200",
@@ -52,7 +55,8 @@ export const songList = [
       "ALONE - Love does not recognize age, gender, religion, nationality and skin color. This feeling can arise in any part of the vast world. And the story of this composition tells about the feelings that went beyond our dimension and consciousness. It also happens!",
   },
   {
-    name: "Letter",
+    nameEng: "Letter",
+    nameRus: "Письмо",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/6300975/a87e04f3.a.22195779-1/200x200",
@@ -67,7 +71,8 @@ export const songList = [
     aboutEng: "",
   },
   {
-    name: "Affection",
+    nameEng: "Affection",
+    nameRus: "Притяжение",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/5966316/23508d8f.a.21931276-1/200x200",
@@ -82,7 +87,8 @@ export const songList = [
     aboutEng: "",
   },
   {
-    name: "Task - The Peace",
+    nameEng: "Task - The Peace",
+    nameRus: "Task - The Peace",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/5502420/a61d858b.a.24499797-1/200x200",
@@ -97,7 +103,8 @@ export const songList = [
     aboutEng: "",
   },
   {
-    name: "2030",
+    nameEng: "2030",
+    nameRus: "2030",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/6201394/1c2e2647.a.22569243-1/200x200",
@@ -112,7 +119,8 @@ export const songList = [
     aboutEng: "",
   },
   {
-    name: "My Dreams",
+    nameEng: "My Dreams",
+    nameRus: "My Dreams",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/5502420/67053f70.a.24242526-1/200x200",
@@ -128,7 +136,8 @@ export const songList = [
     aboutEng: "",
   },
   {
-    name: "Darkness In The Name Of Light",
+    nameEng: "Darkness In The Name Of Light",
+    nameRus: "Тьма Во Имя Света",
     year: "2022",
     imgUrl:
       "https://avatars.yandex.net/get-music-content/4796762/b1beec13.a.16039221-1/200x200",

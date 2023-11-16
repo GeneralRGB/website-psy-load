@@ -6,17 +6,20 @@ import Header from "./Header/Header";
 import "./App.css";
 import { MainPage } from "./MainPage";
 import { Song } from "./SongPage/Song";
+import { useState } from "react";
 
 function App() {
+  const [language, setLanguage] = useState("en");
+
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <Header language={language} setLanguage={setLanguage} />
         <main>
           <Routes>
-            <Route path="/" element={<MainPage />} />
-            <Route path="song/:id" element={<Song />} />
-            <Route path="*" element={<MainPage />} />
+            <Route path="/" element={<MainPage language={language} />} />
+            <Route path="song/:id" element={<Song language={language} />} />
+            <Route path="*" element={<MainPage language={language} />} />
           </Routes>
         </main>
       </BrowserRouter>

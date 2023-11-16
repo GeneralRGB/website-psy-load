@@ -11,7 +11,24 @@ import { SoundCloud } from "../Buttons/SoundCloud";
 import { YandexMusic } from "../Buttons/YandexMusic";
 import { useEffect } from "react";
 
-export default function Preview() {
+interface Props {
+  language: string;
+}
+
+export default function Preview({ language }: Props) {
+  let otherPlatformText = "Other Platforms";
+  switch (language) {
+    case "en":
+      otherPlatformText = "Other Platforms";
+      break;
+    case "ru":
+      otherPlatformText = "Другие Платформы";
+      break;
+    case "it":
+      otherPlatformText = "Altre piattaforme";
+      break;
+  }
+
   useEffect(() => {
     // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
@@ -25,6 +42,7 @@ export default function Preview() {
         <ListenNow
           props={{
             url: "https://open.spotify.com/artist/5dIbY2QCBZfLFWFarAewhs",
+            language: language,
           }}
         />
       </div>
@@ -62,7 +80,7 @@ export default function Preview() {
           </div>
         </div>
         <div className="other-platforms">
-          <h3>Other Platforms</h3>
+          <h3>{otherPlatformText}</h3>
           <div className="other-buttons">
             <AppleMusic
               props={{

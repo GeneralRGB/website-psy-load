@@ -7,7 +7,11 @@ import "./songs.css";
 import { useParams, redirect } from "react-router-dom";
 import { useEffect } from "react";
 
-export const Song = () => {
+interface Props {
+  language: string;
+}
+
+export const Song = ({ language }: Props) => {
   useEffect(() => {
     // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
@@ -18,16 +22,37 @@ export const Song = () => {
     return redirect("/");
   }
 
-  const song = songList[Number(id)];
+  const songElement = songList[Number(id)];
+  const song = { name: "", year: "", lyrics: "", about: "", imgUrl: "" };
+  switch (language) {
+    case "en":
+      song.name = songElement.nameEng;
+      song.lyrics = songElement.textEng;
+      song.about = songElement.aboutEng;
+      break;
+    case "ru":
+      song.name = songElement.nameRus;
+      song.lyrics = songElement.textRus;
+      song.about = songElement.aboutRus;
+      break;
+    case "it":
+      song.name = songElement.nameEng;
+      song.lyrics = songElement.textEng;
+      song.about = songElement.aboutEng;
+      break;
+  }
+  song.year = songElement.year;
+  song.imgUrl = songElement.HDimgUrl;
   return (
     <div className="song-page">
-      <img className="song-page-img" src={song.HDimgUrl} alt={song.name} />
+      <img className="song-page-img" src={song.imgUrl} alt={song.name} />
       <h3 className="song-page-title">
         {song.name} · {song.year}
       </h3>
       <ListenNow
         props={{
           url: "https://open.spotify.com/artist/5dIbY2QCBZfLFWFarAewhs",
+          language,
         }}
       />
       <div className="other-buttons song-page__additional-buttons">
@@ -46,7 +71,7 @@ export const Song = () => {
           <h4 className="song-page-second-title">Lyrics</h4>
           <div
             className="song-page-text"
-            dangerouslySetInnerHTML={{ __html: song.textEng }}
+            dangerouslySetInnerHTML={{ __html: song.lyrics }}
           ></div>
         </div>
         <div className="song-text-separator"></div>
@@ -54,7 +79,7 @@ export const Song = () => {
           <h4 className="song-page-second-title">About</h4>
           <div
             className="song-page-about"
-            dangerouslySetInnerHTML={{ __html: song.aboutEng }}
+            dangerouslySetInnerHTML={{ __html: song.about }}
           ></div>
         </div>
       </div>

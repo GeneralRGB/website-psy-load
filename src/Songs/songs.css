@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 395px) {
     .song-list {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 
