@@ -21,7 +21,7 @@ export default function SongCard({ props, language }: Props) {
     case "ru":
       song.name = props.nameRus;
       break;
-    case "it":
+    case "sp":
       song.name = props.nameEng;
   }
   return (

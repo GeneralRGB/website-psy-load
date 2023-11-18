@@ -24,8 +24,8 @@ export default function Preview({ language }: Props) {
     case "ru":
       otherPlatformText = "Другие Платформы";
       break;
-    case "it":
-      otherPlatformText = "Altre piattaforme";
+    case "sp":
+      otherPlatformText = "Otras Plataformas";
       break;
   }
 

@@ -13,8 +13,8 @@ export const ListenNow = ({ props }: Props) => {
     case "ru":
       listenText = "Слушать";
       break;
-    case "it":
-      listenText = "Ascolta ora";
+    case "sp":
+      listenText = "Escuchar ahora";
       break;
   }
   return (

@@ -19,8 +19,8 @@ export default function Header({ language, setLanguage }: Props) {
     case "ru":
       headerLinks = ["Главная", "Песни", "О группе", "Назад"];
       break;
-    case "it":
-      headerLinks = ["Main", "Songs", "About", "Go Back"];
+    case "sp":
+      headerLinks = ["Portada", "Canciones", "Sobre", "Atrás"];
       break;
   }
 
@@ -76,10 +76,10 @@ export default function Header({ language, setLanguage }: Props) {
           <li className="dash">|</li>
           <li
             className="language"
-            style={language == "it" ? { color: "#ff5c52" } : {}}
-            onClick={() => setLanguage("it")}
+            style={language == "sp" ? { color: "#ff5c52" } : {}}
+            onClick={() => setLanguage("sp")}
           >
-            IT
+            SP
           </li>
         </ul>
       </div>

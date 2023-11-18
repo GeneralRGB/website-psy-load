@@ -23,22 +23,36 @@ export const Song = ({ language }: Props) => {
   }
 
   const songElement = songList[Number(id)];
-  const song = { name: "", year: "", lyrics: "", about: "", imgUrl: "" };
+  const song = {
+    name: "",
+    year: "",
+    lyrics: "",
+    about: "",
+    imgUrl: "",
+    lyricsTitle: "",
+    aboutTitle: "",
+  };
   switch (language) {
     case "en":
       song.name = songElement.nameEng;
       song.lyrics = songElement.textEng;
       song.about = songElement.aboutEng;
+      song.lyricsTitle = "Lyrics";
+      song.aboutTitle = "About";
       break;
     case "ru":
       song.name = songElement.nameRus;
       song.lyrics = songElement.textRus;
       song.about = songElement.aboutRus;
+      song.lyricsTitle = "Текст";
+      song.aboutTitle = "О Песне";
       break;
-    case "it":
+    case "sp":
       song.name = songElement.nameEng;
       song.lyrics = songElement.textEng;
       song.about = songElement.aboutEng;
+      song.lyricsTitle = "Letra";
+      song.aboutTitle = "Acerca de";
       break;
   }
   song.year = songElement.year;
@@ -68,7 +82,7 @@ export const Song = ({ language }: Props) => {
       </div>
       <div className="song-page-lower">
         <div className="lyrics-section">
-          <h4 className="song-page-second-title">Lyrics</h4>
+          <h4 className="song-page-second-title">{song.lyricsTitle}</h4>
           <div
             className="song-page-text"
             dangerouslySetInnerHTML={{ __html: song.lyrics }}
@@ -76,7 +90,7 @@ export const Song = ({ language }: Props) => {
         </div>
         <div className="song-text-separator"></div>
         <div className="son-page-about-section">
-          <h4 className="song-page-second-title">About</h4>
+          <h4 className="song-page-second-title">{song.aboutTitle}</h4>
           <div
             className="song-page-about"
             dangerouslySetInnerHTML={{ __html: song.about }}

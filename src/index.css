@@ -50,6 +50,7 @@ button {
   background-color: #1a1a1a;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  color: white;
   transition: border-color 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
 

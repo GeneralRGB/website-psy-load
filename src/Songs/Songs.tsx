@@ -15,8 +15,8 @@ export default function Songs({ language }: Props) {
     case "ru":
       recordsText = "Треки";
       break;
-    case "it":
-      recordsText = "Canzoni";
+    case "sp":
+      recordsText = "Canciones";
   }
   return (
     <div className="songs-section" id="songs">
