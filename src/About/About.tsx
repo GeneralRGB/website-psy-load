@@ -29,7 +29,7 @@ export default function About({ language }: Props) {
       ];
       break;
     case "sp":
-      text.heading = "Sobre";
+      text.heading = "Sobre el grupo";
       text.paragraphs = [
         "El grupo PSY LOAD se formó en 2019. Sergey Senin (G.S.T) y Danila Khorikov (Denny), en el contexto de ideas, poemas y música acumulados, decidieron intentar tocar juntos. Todo empezó en una pequeña ciudad de provincias, a pesar del origen metropolitano de ambos participantes. La poesía de G.S.T y los profundos procesos de pensamiento de Denny, combinados con diferentes intereses musicales en géneros y estilos musicales, dieron origen a las propias tradiciones del equipo.",
         "El grupo nunca se ha guiado por ningún estilo o género musical, intentamos apegarnos a un estilo libre, pero como siempre sucede, nosotros, independientemente de nuestras preferencias, hemos formado nuestro propio pequeño mundo musical sin fronteras ni reglas de existencia.",

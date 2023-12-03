@@ -1,4 +1,5 @@
 .songs-section {
+    position: relative;
     margin-top: 50px;
 }
 
@@ -7,10 +8,13 @@
     font-size: 42px;
     font-weight: normal;
     color: white;
+    z-index: 2;
+    position: relative;
 }
 
 .song-list {
     display: grid;
+    position: relative;
     grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
     gap: 25px 0;
 }

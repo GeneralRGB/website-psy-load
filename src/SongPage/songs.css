@@ -1,8 +1,27 @@
 .song-page {
+    position: relative;
     padding-top: 75px;
 }
 
+/* .song-page::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: 0;
+    background-image: url("../assets/Rose.svg");
+    background-size: 100px;
+    background-position: 80px 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}  */
+
 .song-page-img {
+    position: relative;
+    z-index: 2;
     display: block;
     width: 250px;
     border-radius: 20px;
@@ -11,6 +30,8 @@
 }
 
 .song-page-title {
+    position: relative;
+    z-index: 2;
     text-align: center;
     font-weight: 400;
     font-size: 27px;
@@ -18,16 +39,26 @@
 }
 
 .song-page__additional-buttons {
+    position: relative;
+    z-index: 2;
     justify-content: center;
     margin: 15px 0;
 }
 
 .song-page-lower {
+
     display: flex;
     justify-content: center;
 }
 
+.listen-now {
+    position: relative;
+    z-index: 2;
+}
+
 .song-page-lower>div {
+    position: relative;
+    z-index: 2;
     flex: 1;
 }
 
