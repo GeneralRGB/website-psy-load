@@ -10,6 +10,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/5708920/4e08c098.a.21114002-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/5708920/4e08c098.a.21114002-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/5KrQWQpRkdI1jpEjDWryQD",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/reset/1608414386?i=1608414392",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-reset?si=d761ed38c45043e3a0923b4d7c5a8860&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/21114002/track/100548800",
     id: "0",
     textRus:
       "Оставь ключи<br>Давно открыты двери<br><br>Сознанию не стоит <br>Больше верить<br><br>Осколки фальши<br>Под подошвой снов<br><br>В пустоту кричу<br>Fuck Off<br><br>Я пробираюсь сквозь мысли<br>Своих безумных идей<br>Вычисляю иллюзии<br>И хочу быть сильней<br>Нажимаю на энтер и уже в сети<br>Я зашел под именем sream <br><br>Дважды стук по клавишам в сети<br>Мой ник<br><br>На твоем экране в касание <br>И клик<br><br>Свобода нравов на просторах <br>Нета<br><br>Мир сошел с ума и требует<br>Ресета<br><br>Новый мир и все, <br>мысли на стене<br>Рисунками всех цветов вселенной<br>Выбор на любовь<br>Пулей через кровь<br>Я ищу замену",
@@ -32,6 +38,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/6021799/a6382038.a.22177801-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/6021799/a6382038.a.22177801-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/1uHhBUNigkoRFiCbXV37Zn",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/message/1616336268?i=1616336272",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/message?si=685813c4bb824868806fb5de3f778a7e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/22177801/track/103589452",
     id: "1",
     textRus:
       "Позади меня <br>Капли водопада<br>Впереди сияние твоих глаз<br>Распадаясь на океаны<br>И на тысячи фаз и фраз<br>Преодолевая сотни расстояний<br>Я тону в тебе, мой маленький мир<br><br>Мой огненный месседж<br>Где-то там далеко<br>Стучится в твоих тёплых ладонях<br>Ты даришь свой смайлик<br>Как обычно легко<br>Мы оба с тобой <br>Заложники расстояний<br><br>Нам препятствует время<br>Горы и океаны<br>Нам препятствует всё <br>Что есть на земле<br>Мы на разных концах<br>Необъятного мира<br>Я пишу тебе снова <br>Connected with to me<br><br>Мой огненный меседж <br>Где-то там далеко<br>Стучится в твоих тёплых ладонях<br>Ты даришь свой смайлик<br>Как обычно легко<br>Мы оба с тобой  <br>Заложники расстояний",
@@ -54,6 +66,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/4384958/bb5c775f.a.16268592-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/4384958/bb5c775f.a.16268592-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/2VXTH59Cr8ikR8gt1mkf94",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/alone/1555843306?i=1555843315",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/alone?si=bad1f77e80c74f9094c8479be810285c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/16268592/track/85320374",
     id: "2",
     textRus:
       "Дождь в душе <br>И за окном моим<br>Ищу тебя в небе<br>Среди миллиарда звезд<br><br>Ты где-то там<br>Где затерялись мои сны<br>Я знаю, прости<br>Ведь я придумал тебя сам<br><br>Ты самый мой лучший сон<br>Ты то с чем просыпаюсь я<br><br>Я брожу во тьме<br>В надежде на рассветы<br>Я иду туда где<br>Могут быть ответы<br><br>На лучи сквозь мое<br>Ночное небо<br>Вздох, стучит<br>Я уже где еще не был<br><br>Ты самый мой лучший сон<br>Ты то с чем просыпаюсь я<br>В надежде на твое дыхание<br>В надежде на себя, тебя<br><br>И вот, тот свет<br>И мысли стаями к рассвету<br>Я одет в одежды мира,<br>Где ты<br><br>За стеной<br>Вопросов и ответов, двери<br>Ты мой мир<br>В который я привык так верить<br><br>Ты самый мой лучший сон<br>Ты то с чем просыпаюсь я<br>В надежде на твое дыхание<br>В надежде на себя, тебя",
@@ -76,6 +94,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/6300975/a87e04f3.a.22195779-1/200x200",
     HDimgUrl: letter,
     // "https://avatars.yandex.net/get-music-content/6300975/a87e04f3.a.22195779-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/2lViioZUKzo46C318vYFpI",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE/1616714876?i=1616715156",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-pismo?si=d6b3d60fe7a049beaba13016c0f34fd8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/22195779/track/103638835",
     id: "3",
     textRus:
       "Я пишу тебе письмо<br>В сотню лет и в никуда<br>Боже как же далеко<br>Нас уносят времена<br><br>Ты не знаешь что, во мне<br>Кровь как мед из ржавых сот<br>Я опять иду во тьме<br>Как слепец на эшафот<br><br>Белый лебедь, белый храм<br>Это все что есть во мне<br>Я из сердца все отдам<br>Что бы быть в твоей судьбе<br><br>Я не верю никому<br>Верю лишь в счастливый миг<br>И всю жизнь за ним бегу<br>А из глотки рвется крик<br><br>Крик от боли что, во мне<br>И седой тоски в сто лет<br>Я опять иду во тьме <br>И надежды больше нет<br><br>Белый лебедь, белый храм<br>Это все что есть во мне<br>Я из сердца все отдам<br>Что бы быть в твоей судьбе<br><br>Белый лебедь, белый храм<br>Это все что есть во мне<br>Я из сердца все отдам<br>Что бы быть в твоей судьбе<br><br>Я пишу тебе письмо<br>Я пишу тебе письмо<br>Я пишу тебе...",
@@ -95,6 +119,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/5966316/23508d8f.a.21931276-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/5966316/23508d8f.a.21931276-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/77nOORWtYoYqJ8ROBNdanO",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/%D0%BF%D1%80%D0%B8%D1%82%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/1613577693?i=1613578075",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-prityazhenie?si=13b0623f73e348e8bd9890653fcc48b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/21931276/track/102943904",
     id: "4",
     textRus:
       "Поцелуй меня глазами<br>Обними меня душой<br>И растаяв лед мы сами<br>Назовём все то, судьбой<br><br>За границами сознания <br>За кормою да и нет<br>Бьются в поле числа, мысли,<br>За ответ<br><br>Я чувствую притяжение к тебе<br>Я чувствую притяжение к тебе <br><br>За пределами вселенной <br>За движениями звёзд <br>Там где тает отражение <br>Там где может все в серьез<br><br>Протяни мне руку<br>Это будет наш коннект<br>И нам не придется говорить<br>Друг другу да и нет<br><br>Я чувствую притяжение к тебе <br>Я чувствую притяжение к тебе",
@@ -114,6 +144,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/5502420/a61d858b.a.24499797-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/5502420/a61d858b.a.24499797-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/3jBOMWk2ihyPBHEadebawI",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/task-the-peace/1661965139?i=1661965142",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-task-the-peace?si=3f6c40001e22439f82be41988f1a71ae&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/24499797/track/110344745",
     id: "5",
     textRus:
       "Снова в грязь по горло<br>Снова небо плачет<br>Снова дьявол скачет<br>Свинцом да на телах<br><br>Каждый хочет в небо<br>Птицей а не камнем<br>И как можно выше<br>Да звездой гореть<br><br>Тише<br><br>Небо<br>Прости ты нас<br><br>Делай шаг смелее<br>Тьма тебе подскажет<br>В очередь за медью<br>И свинцом всех в ад<br><br>Перья мудрой птицы<br>Ядом по страницам<br>И светлее солнца<br>Ядерный сюжет<br><br>Небо<br>Прости ты нас<br>Разорванные цепи<br>Свет давно погас<br><br>Мел в руке младенца<br>Растопила старость<br>Сова самоубийца<br>Пригласит на бал<br><br>Себя всем по кусочку<br>Раздаст не сожалея<br>Клоун и лисица<br>Праздник завершат<br><br>Небо<br>Прости ты нас<br>Разорванные цепи<br>Свет давно погас",
@@ -133,6 +169,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/6201394/1c2e2647.a.22569243-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/6201394/1c2e2647.a.22569243-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/3CDUjJ6CXDN1NKZPw75VlY",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/2030/1625307647?i=1625307656",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-2030?si=02b3b909713f4af0afbea73f06aa4106&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/22569243/track/104703119",
     id: "6",
     textRus:
       "Две тысячи тридцатый, кислотные дожди,<br>Сумасшедшая скорость машин.<br>Озоновые дыры, радиация, лучи,<br>Мир в эпохе перемен.<br><br>Промышленная грязь, во тьме рождает мразь,<br>Рыцарь зла уже в пути.<br>А годы перемен, рождают нам в замен,<br>Квадраты выжженной земли<br><br>Кровь и слезы под ногами, будущее впереди.<br>За железными вратами называют нас скотами<br>доллар, евро - все в ракеты, население - макеты<br>А тела как знамя в цвете<br><br>Революции мы дети<br>Пламя, танцы, ветер, пули<br>Да мы выживем, а х…ли.<br>Закрой за мною двери я в это просто не верю<br><br>Думаю это все фальшь<br>Память как холодные тени, память как холодные тени<br>Please, please me don’t touch<br>Под подошвами в грязи затоптаны мразью жизни идей<br><br>Флаги из плоти, страниц и илюзий<br>Подняты в мире теней<br>Оглянись и ты увидишь может быть возненавидишь<br>Оцени, там тонкая грань<br><br>Никто не осудит и не выстрелит в спину <br>Я разорву кровавую ткань<br>Дай я просто вздохну<br><br>Твоим взглядом на солнце <br>И переживу громы тысяч светил<br>Я умоюсь слезой ледяных горизонтов<br>Мне наплевать кто победил",
@@ -153,6 +195,12 @@ export const songList = [
     HDimgUrl: my_dreams,
     // HDimgUrl:
     //   "https://avatars.yandex.net/get-music-content/5502420/67053f70.a.24242526-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/0PpWeGv3xyCioP7eevkyEa",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/my-dreams/1657747327?i=1657747329",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-moi-sny?si=fdb974d222e14877a81c2489068aa2b5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/24242526/track/109466242",
     id: "7",
     textRus:
       "Разбивая мысли о надежду<br>И страх - ах<br>Я как буду то пребываю <br>В разных мирах<br><br>Каждое прикосновение <br>Меня к тебе - ее<br>Сердце бьется чаще<br>Я лечу в тебе<br><br>Рассыпаясь на розы и<br>Шипы<br>Ты мои сны<br>Мои сны….<br>Мои, мои, мои, сны<br><br>Сумасшедшие мечты и дилеммы<br>В картах - ах<br>Нахожу себя опять<br>В ярких артах<br><br>Размешав свои все чувства<br>На холсте - ее<br>Сердце сново бьется <br>Я лечу к тебе<br><br>Рассыпаясь на розы и<br>Шипы<br>Ты мои сны<br>Мои сны….<br>Мои, мои, мои, сны",
@@ -172,6 +220,12 @@ export const songList = [
       "https://avatars.yandex.net/get-music-content/4796762/b1beec13.a.16039221-1/200x200",
     HDimgUrl:
       "https://avatars.yandex.net/get-music-content/4796762/b1beec13.a.16039221-1/400x400",
+    spotifyUrl: "https://open.spotify.com/track/1PwII6qknPscfjrGlF4tC0",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/%D1%82%D1%8C%D0%BC%D0%B0-%D0%B2%D0%BE-%D0%B8%D0%BC%D1%8F-%D1%81%D0%B2%D0%B5%D1%82%D0%B0/1570808773?i=1570808777",
+    soundCloudUrl:
+      "https://soundcloud.com/psy-load/psy-load-tma-vo-imya-sveta?si=14d4a8fe584248de8c03993dc6ecff9a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    yandexMusicUrl: "https://music.yandex.ru/album/16039221/track/84543075",
     id: "8",
     textRus:
       "Закрывай глаза и поднимайся<br>Выше<br><br>Доверься крыльям за спиной <br>Делай шаг ближе<br><br>Растворись дыханием во<br>Вселенной<br><br>Ты станешь ее частью <br>Несомненно<br><br>Оставь свой страх с лепестками роз <br>И ядом<br><br>Не смотри ты вниз<br>Я здесь!<br><br>Забирайся выше<br>Тут не страшно, слышишь!<br>Тень свою возьми<br>     <br>Тьма во имя света<br>Оставайся детка<br>Свет во имя тьмы <br>For you<br><br>В части отражения ты <br>Птица<br><br>Ангел света, существо <br>С небес<br><br>Но скинув все с себя <br>одежды<br><br>Ночь, жара ты сущий<br>Бес<br><br>Доверь свои мне дни и<br>Мы разгадаем тайны мира - все!<br><br><br>Скинь с себя ты цепи в омут<br>Лета<br>Им не удержать твои <br>Мечты<br><br>Растворись бриллиантовой <br>Слезою<br>В океане мира без любви<br><br>Убеждения сожги свои ты в пепел  - светел<br>Путь твой ночью впереди",

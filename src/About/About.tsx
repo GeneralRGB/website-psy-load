@@ -41,7 +41,7 @@ export default function About({ language }: Props) {
     <div className="about-section" id="about">
       <h3>{text.heading}</h3>
       {text.paragraphs.map((text, i) => (
-        <p id={"about-text-" + i}>{text}</p>
+        <p key={"about-text-" + i}>{text}</p>
       ))}
     </div>
   );

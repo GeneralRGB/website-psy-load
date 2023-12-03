@@ -3,13 +3,13 @@ import "./preview.css";
 import artist from "../assets/artist.jpg";
 import InstagramSvg from "./InstagramSvg";
 import YoutubeSvg from "./YoutubeSvg";
-import FacebookSvg from "./FacebookSvg";
 import TwitterSvg from "./TwitterSvg";
 import { ListenNow } from "../Buttons/ListenNow";
 import { AppleMusic } from "../Buttons/AppleMusic";
 import { SoundCloud } from "../Buttons/SoundCloud";
 import { YandexMusic } from "../Buttons/YandexMusic";
 import { useEffect } from "react";
+import { TikTokSvg } from "./TikTokSvg";
 
 interface Props {
   language: string;
@@ -59,16 +59,18 @@ export default function Preview({ language }: Props) {
           <div
             className="social-media-item"
             onClick={() =>
+              window.open("https://www.tiktok.com/@geniusst", "_blank")
+            }
+          >
+            <TikTokSvg />
+          </div>
+          <div
+            className="social-media-item"
+            onClick={() =>
               window.open("https://www.youtube.com/@psyload2539", "_blank")
             }
           >
             <YoutubeSvg />
-          </div>
-          <div
-            className="social-media-item"
-            onClick={() => window.open("https://www.facebook.com/", "_blank")}
-          >
-            <FacebookSvg />
           </div>
           <div
             className="social-media-item"

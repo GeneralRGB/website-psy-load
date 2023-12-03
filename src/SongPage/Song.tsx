@@ -65,20 +65,18 @@ export const Song = ({ language }: Props) => {
       </h3>
       <ListenNow
         props={{
-          url: "https://open.spotify.com/artist/5dIbY2QCBZfLFWFarAewhs",
+          url: songElement.spotifyUrl,
           language,
         }}
       />
       <div className="other-buttons song-page__additional-buttons">
         <AppleMusic
           props={{
-            url: "https://music.apple.com/us/artist/psy-load/1555843310",
+            url: songElement.appleMusicUrl,
           }}
         />
-        <SoundCloud props={{ url: "https://soundcloud.com/psy-load" }} />
-        <YandexMusic
-          props={{ url: "https://music.yandex.ru/artist/12083962" }}
-        />
+        <SoundCloud props={{ url: songElement.soundCloudUrl }} />
+        <YandexMusic props={{ url: songElement.yandexMusicUrl }} />
       </div>
       <div className="song-page-lower">
         <div className="lyrics-section">
