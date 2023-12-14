@@ -159,13 +159,16 @@ export const songList = [
     id: "5",
     textRus:
       "Снова в грязь по горло<br>Снова небо плачет<br>Снова дьявол скачет<br>Свинцом да на телах<br><br>Каждый хочет в небо<br>Птицей а не камнем<br>И как можно выше<br>Да звездой гореть<br><br>Тише<br><br>Небо<br>Прости ты нас<br><br>Делай шаг смелее<br>Тьма тебе подскажет<br>В очередь за медью<br>И свинцом всех в ад<br><br>Перья мудрой птицы<br>Ядом по страницам<br>И светлее солнца<br>Ядерный сюжет<br><br>Небо<br>Прости ты нас<br>Разорванные цепи<br>Свет давно погас<br><br>Мел в руке младенца<br>Растопила старость<br>Сова самоубийца<br>Пригласит на бал<br><br>Себя всем по кусочку<br>Раздаст не сожалея<br>Клоун и лисица<br>Праздник завершат<br><br>Небо<br>Прости ты нас<br>Разорванные цепи<br>Свет давно погас",
-    aboutRus: "",
+    aboutRus:
+      "Мы все стали свидетелями исторических событий. Мир не спокоен. Сюжеты новостей изо дня в день транслируют преступность, конфликты и обесценивание человеческой жизни. Мы как и многие не остались равнодушными к сложившейся ситуации в мире и отразили свои взгляды в этом треке.",
     textEng:
       "Again, neck-deep in the mud<br>Again, the sky is crying<br>Again, the devil is riding<br>With lead on bodies<br><br>Everyone wants to reach the sky<br>As a bird, not a stone<br>And as high as possible<br>To burn as a star<br><br>Quieter<br><br>Sky<br>Forgive us<br><br>Take a bolder step<br>Darkness will guide you<br>In line for copper<br>And with lead, all to hell<br><br>Feathers of a wise bird<br>Poisoning the pages<br>Brighter than the sun<br>A nuclear plot<br><br>Sky<br>Forgive us<br>Broken chains<br>The light has long gone out<br><br>Chalk in the hand of a child<br>Melting away the old age<br>A suicidal owl<br>Invites to the ball<br><br>Give yourself in pieces to everyone<br>Distribute without remorse<br>A clown and a fox<br>Will conclude the celebration<br><br>Sky<br>Forgive us<br>Broken chains<br>The light has long gone out",
-    aboutEng: "",
+    aboutEng:
+      "We have all witnessed historical events. The world is not calm. Day after day, news stories broadcast crime, conflicts and the devaluation of human life. We, like many, did not remain indifferent to the current situation in the world and reflected our views in this track.",
     textSp:
       "De nuevo, hasta el cuello en el barro<br>De nuevo, el cielo está llorando<br>De nuevo, el diablo está cabalgando<br>Con plomo sobre cuerpos<br><br>Todos quieren alcanzar el cielo<br>Como un pájaro, no como una piedra<br>Y tan alto como sea posible<br>Para arder como una estrella<br><br>Más tranquilo<br><br>Cielo<br>Perdónanos<br><br>Da un paso más audaz<br>La oscuridad te guiará<br>En fila por el cobre<br>Y con plomo, todo al infierno<br><br>Plumas de un pájaro sabio<br>Envenenando las páginas<br>Más brillante que el sol<br>Un complot nuclear<br><br>Cielo<br>Perdónanos<br>Cadenas rotas<br>La luz se apagó hace mucho<br><br>Tiza en la mano de un niño<br>Derritiendo la vejez<br>Un búho suicida<br>Invita al baile<br><br>Entrégate en pedazos a todos<br>Distribuye sin remordimientos<br>Un payaso y un zorro<br>Concluirán la celebración<br><br>Cielo<br>Perdónanos<br>Cadenas rotas<br>La luz se apagó hace mucho",
-    aboutSp: "",
+    aboutSp:
+      "Todos hemos sido testigos de acontecimientos históricos. El mundo no está en calma. Día tras día, las noticias difunden crímenes, conflictos y la devaluación de la vida humana. Nosotros, como muchos, no permanecimos indiferentes ante la situación actual en el mundo y reflejamos nuestras opiniones en este tema.",
   },
   {
     nameEng: "2030",

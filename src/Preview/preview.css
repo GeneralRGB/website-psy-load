@@ -93,12 +93,17 @@ main::before {
     width: 75px;
 }
 
-.social-media-item * {
-    transition: fill 0.3s ease;
+.social-media-item {
+    transition: transform 0.3s ease;
 }
 
-.social-media-item:hover * {
-    fill: red;
+.social-media-item:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.social-media-item:active {
+    transform: scale(0.9);
     cursor: pointer;
 }
 
@@ -126,12 +131,16 @@ main::before {
     justify-content: space-between;
     padding: 15px 10px;
     height: 75%;
+    gap: 7px;
     width: 125px;
     border-radius: 17px;
     background: #4E4E4E;
     cursor: pointer;
 }
 
+.other-buttons>button>svg {
+    position: relative;
+}
 
 
 .other-platforms-svg {
