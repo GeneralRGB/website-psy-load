@@ -8,9 +8,17 @@ import { MainPage } from "./MainPage";
 import { Song } from "./SongPage/Song";
 import { useState } from "react";
 
-function App() {
-  const [language, setLanguage] = useState("en");
+function getLanguage() {
+  const lang = localStorage.getItem("language");
+  return lang || "en";
+}
 
+function App() {
+  const [language, setLanguageState] = useState(getLanguage());
+  const setLanguage = (language: string) => {
+    localStorage.setItem("language", language);
+    setLanguageState(language);
+  };
   return (
     <>
       <BrowserRouter>

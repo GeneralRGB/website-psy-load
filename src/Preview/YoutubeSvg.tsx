@@ -20,8 +20,8 @@ export default function YoutubeSvg() {
           y2="103.387"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF2424" />
-          <stop offset="1" stop-color="#FF6565" />
+          <stop stopColor="#FF2424" />
+          <stop offset="1" stopColor="#FF6565" />
         </linearGradient>
       </defs>
     </svg>

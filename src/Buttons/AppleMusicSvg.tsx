@@ -32,8 +32,8 @@ export default function AppleMusicSvg() {
           y2="65.918"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FD5046" />
-          <stop offset="1" stop-color="#FF4236" />
+          <stop stopColor="#FD5046" />
+          <stop offset="1" stopColor="#FF4236" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_18_121"
@@ -43,8 +43,8 @@ export default function AppleMusicSvg() {
           y2="57.8614"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FD5046" />
-          <stop offset="1" stop-color="#FF4236" />
+          <stop stopColor="#FD5046" />
+          <stop offset="1" stopColor="#FF4236" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_18_121"
@@ -54,8 +54,8 @@ export default function AppleMusicSvg() {
           y2="55.9117"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FD5046" />
-          <stop offset="1" stop-color="#FF4236" />
+          <stop stopColor="#FD5046" />
+          <stop offset="1" stopColor="#FF4236" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_18_121"
@@ -65,8 +65,8 @@ export default function AppleMusicSvg() {
           y2="29.6807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FD5046" />
-          <stop offset="1" stop-color="#FF4236" />
+          <stop stopColor="#FD5046" />
+          <stop offset="1" stopColor="#FF4236" />
         </linearGradient>
       </defs>
     </svg>

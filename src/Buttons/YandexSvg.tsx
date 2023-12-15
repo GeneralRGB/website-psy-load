@@ -39,8 +39,8 @@ export default function YandexSvg() {
           y2="74"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFAD0E" />
-          <stop offset="1" stop-color="#FFC451" />
+          <stop stopColor="#FFD53F" />
+          <stop offset="0.917708" stopColor="#FBD53A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_73_19"
@@ -50,8 +50,8 @@ export default function YandexSvg() {
           y2="48"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF2E2E" />
-          <stop offset="1" stop-color="#FD5050" />
+          <stop stopColor="#FF2E2E" />
+          <stop offset="1" stopColor="#FD5050" />
         </linearGradient>
       </defs>
     </svg>
