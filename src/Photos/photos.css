@@ -1,0 +1,148 @@
+.photos-section>h3 {
+    position: relative;
+    font-size: 42px;
+    font-weight: normal;
+    margin: 25px 0 0 45px;
+    color: white;
+    z-index: 2;
+}
+
+
+.photo-list {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 25px 0;
+}
+
+.photo-list>div {
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+
+.photo-list>div>img {
+    transition: scale 0.3s ease-in-out;
+}
+
+.photo-list>div:hover>img {
+    scale: 1.1;
+}
+
+.photo-list>div>span {
+    transition:
+        transform 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+}
+
+.photo-list>div:hover>span {
+    transform: translateY(10px);
+    color: red;
+}
+
+.photos-photo {
+    width: 175px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 1px;
+}
+
+.photo-list span {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* right: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    z-index: 1000;
+}
+
+.modal {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div>.modal>img {
+    min-width: 70%;
+    max-width: 95%;
+    max-height: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .photo-section h3 {
+        text-align: center;
+        margin: 25px 0 15px;
+    }
+
+    .photo-section {
+        margin: 20px 0 15px;
+    }
+
+    .photo-list {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .photo-list {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .photos-photo {
+        width: 150px;
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .photo-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .photo-list>div {
+        width: 120px;
+        height: 300px;
+    }
+
+    .photos-photo {
+        width: 120px;
+        height: 150px;
+        margin: auto;
+    }
+
+    .photos-text {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+    .about-section h3 {
+        text-align: center;
+        margin: 0 0 15px;
+    }
+}
